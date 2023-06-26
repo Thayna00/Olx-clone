@@ -1,9 +1,14 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+
+import RoutesFunc from "./Routes"; 
 
 const Page = (props) =>{
   return (
-    <div>Nanaaa</div>
+    <BrowserRouter>
+      <RoutesFunc/>
+    </BrowserRouter>
   );
 }
 
