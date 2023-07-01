@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 const Page = () => {
     return (
         <div>
-            <h1>Página Inicial</h1>
+            <h1>Página não encontrada</h1>
 
-            <Link to="/about">Sobre</Link>
+            <Link to="/">Voltar para a HOME</Link>
+
         </div>
     );
 }
